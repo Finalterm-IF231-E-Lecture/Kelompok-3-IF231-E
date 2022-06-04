@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.containerBox {
+  border-radius: 10px;
+}
+
+#overlay {
+  position: absolute;
+
+  z-index: 9;
+  background-color: #383838;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1080px) {
+  #pg-title {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .containerBox {
+    min-width: 80%;
+  }
+
+  #login-frame {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #login-form form input[type="text"] {
+    width: 90%;
+  }
+}
+
+.tablet {
+  position: relative;
+  width: 768px;
+  height: 1024px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+.tablet:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+.tablet:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+.tablet .content {
+  width: 768px;
+  height: 1024px;
+  background: white;
+  margin: -1px;
+}
+
+.bgTest {
+  position: relative;
+  left: 0;
+}
+
+#background-latar {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.profile {
+  color: white;
+}
+
+.text-cafe {
+  border: 5px solid rgba(114, 37, 37, 0.637);
+  background-color: white;
+}
+
+.text-regards {
+  border: 5px solid rgba(12, 9, 9, 0.637);
+  background-color: rgb(214, 214, 214);
+}
+
+.image-supermarket {
+  width: 150px;
+}
+
+.text-course {
+  border: 1px solid rgba(12, 9, 9, 0.637);
+  background-color: rgb(214, 214, 214);
+}
+
+.text-goto {
+  border: 1px solid rgba(12, 9, 9, 0.637);
+  border-radius: 20px;
+  background-color: rgb(32, 32, 102, 0.3);
+}
+
+.judul {
+  color: white;
+}
+
+.aktivitas button:hover {
+  opacity: 0.5;
+}
+
+#cafe-carousel .buttonL,
+.buttonR {
+  color: white;
+  background-color: rgb(6, 131, 180);
+}
+
+#cafe-carousel .buy {
+  color: white;
+  background-color: green;
+}
+
+#cafe-carousel button:hover {
+  opacity: 0.5;
+  background-color: rgb(58, 58, 58);
+  transition: background-color 0.3s;
+}
+
+.buyfood button {
+  width: 100px;
+  color: white;
+  background-color: rgb(9, 168, 9);
+}
+
+.buyfood button:hover {
+  opacity: 0.7;
+}
+
+.sp button {
+  color: white;
+  background-color: red;
+  width: 40px;
+  padding: 3px;
+}
+
+.sp button:hover {
+  opacity: 0.5;
+}
+
+.img-about {
+  width: 90%;
+}

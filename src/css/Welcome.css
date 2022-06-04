@@ -1,0 +1,7 @@
+.buttonWelcome {
+  border-radius: 50px;
+}
+
+#welcome Link rules:hover {
+  border-bottom: solid 1pt black;
+}

@@ -1,0 +1,70 @@
+{
+  "supermarket": [
+    {
+      "name": "Cola-Cola",
+      "price": "5000",
+      "stok": 1000,
+      "id": 1
+    },
+    {
+      "name": "Susu UHT",
+      "price": "15000",
+      "stok": 1000,
+      "id": 2
+    },
+    {
+      "name": "Sumarjan",
+      "price": 10000,
+      "stok": 1000,
+      "id": 3
+    },
+    {
+      "name": "Mineral Water",
+      "price": "6000",
+      "stok": 1000,
+      "id": 4
+    },
+    {
+      "name": "Snack Bar",
+      "price": "9000",
+      "stok": 1000,
+      "id": 5
+    },
+    {
+      "name": "Tortila",
+      "price": "7000",
+      "stok": 1000,
+      "id": 6
+    },
+    {
+      "name": "Permen Karet",
+      "price": "5000",
+      "stok": 1000,
+      "id": 7
+    },
+    {
+      "name": "Indomie Goreng",
+      "price": "5000",
+      "stok": 1000,
+      "id": 8
+    },
+    {
+      "name": "Obat Sakit Lambung",
+      "price": "16000",
+      "stok": 1000,
+      "id": 9
+    }
+  ],
+  "cafe": [
+    {
+      "name": "MilkShake",
+      "price": "25000",
+      "id": 1
+    },
+    {
+      "name": "Hot Coffee",
+      "price": "17000",
+      "id": 2
+    }
+  ]
+}
